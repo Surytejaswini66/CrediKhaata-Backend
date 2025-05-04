@@ -6,7 +6,10 @@ const loanRoutes = require('./routes/loans'); // Import loans routes
 const customerRoutes = require('./routes/customers'); // Import customers routes
 
 dotenv.config();
-
+app.get('/', (req, res) => {
+    res.send('CrediKhaata Backend is Running');
+  });
+  
 const app = express();
 app.use(express.json());
 app.use('/loans', loanRoutes);
