@@ -145,3 +145,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 **Disclaimer**: This is a mock version of the SMS/WhatsApp reminder and receipt generation feature. Integration with third-party APIs (like Twilio or Sinch) for real-world implementation is recommended.
+
+## Motivation
+
+This project was developed as part of an assignment to understand backend architecture, RESTful API design, authentication, and real-world data handling. It also allowed me to explore how loans and credit tracking work in a small business context.
